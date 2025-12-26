@@ -51,10 +51,10 @@ class Cifar100_CNN(nn.Module):
         # https://blog.jovian.ai/image-classification-of-cifar100-dataset-using-pytorch-8b7145242df1
         self.seq = nn.Sequential(
             Normalize([0.5074,0.4867,0.4411],[0.2011,0.1987,0.2025]),
-            # первый способ уменьшения размерности картинки - через stride
+           
             nn.Conv2d(3, HIDDEN_SIZE, 5, stride=4, padding=2),
             nn.ReLU(),
-            # второй способ уменьшения размерности картинки - через слой пуллинг
+            
             nn.Conv2d(HIDDEN_SIZE, HIDDEN_SIZE*2, 3, stride=1, padding=1),
             nn.ReLU(),
             nn.AvgPool2d(4),#nn.MaxPool2d(4),
