@@ -1,0 +1,6 @@
+pymilvus
+sentence-transformers
+numpy
+django
+djangorestframework
+drf-spectacular

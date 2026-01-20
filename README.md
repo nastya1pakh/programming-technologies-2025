@@ -24,6 +24,8 @@
 - [ЛР0](labs/lab0.md)
 - [ЛР1](labs/lab1.md)
 - [ЛР2](labs/lab2.md)
+- [ЛР3](labs/lab3.md)
+- [Вопросы к экзамену](labs/exam.md)
 
 ## Полезные источники
 

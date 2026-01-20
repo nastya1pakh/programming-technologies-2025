@@ -1,0 +1,8 @@
+pymilvus
+sentence-transformers
+numpy<2
+pillow>=10.0.0
+torch==2.2.1
+torchvision==0.17.1
+torchaudio==2.2.1
+-f https://download.pytorch.org/whl/cu121
